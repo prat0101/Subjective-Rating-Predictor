@@ -4,7 +4,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 
 # Load data and train model
-location = 'D:\\BSR Regression\\BSR_Final_4\\Rating_Predictor_Final_2\\Seat_Cockpit_Combined_2.csv'
+location = 'Seat_Cockpit_Combined_2.csv'
 df = pd.read_csv(location)
 
 # Prepare features and target
